@@ -25,19 +25,3 @@ Star.propTypes = {
 };
 
 export default Star;
-
-/*
-function Star(props) {
-    const labels = {
-        1: 'Terrible',
-        2: 'Poor',
-        3: 'Ok',
-        4: 'Good',
-        5: 'Excellent',
-      };
-  return (
-    <h2>{props.labels}</h2>
-  )
-}
-
-export default Star*/

@@ -45,26 +45,42 @@ h2 {
 }
 
 .btn {
-    display: block;
-    text-align: center;
-    margin: auto;
+    
     position: absolute;
     bottom: 30px;
     right: 30px;
-    width: 160px;
-    height: 55px;
     background-color: #2929cf;
     border: 1px solid rgba(255, 255, 255, 0.171);
-    border-radius: 50px;
-    font-size: 15px;
-    font-weight: 600;
     color: #fff;
-    letter-spacing: 0.4px;
+    
     cursor: pointer;
 }
 
 .btn:hover {
     color: #5c5c5c;
+}
+
+.btn, .close {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.close {
+    background-color: #ccc;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.close:hover {
+    color: #3d3e42;
 }
 
 .dialog-overlay {
@@ -83,12 +99,6 @@ h2 {
     background-color: white;
     padding: 20px;
     border-radius: 4px;
-    text-align: center;
-    
+    text-align: right;
 }
 
-.close {
-    font-size: 22px;
-    cursor: pointer;
-    text-decoration: underline;
-}

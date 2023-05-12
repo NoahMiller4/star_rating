@@ -29,7 +29,7 @@ const Dialog = () => {
                     src='https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif'
                     />
             </div>
-            <p onClick={handleClose} className='close'>Close</p>
+            <button onClick={handleClose} className='close'>Close Dialog</button>
           </div>
         </div>
       )}
