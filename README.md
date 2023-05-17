@@ -2,4 +2,4 @@
 
 Click [here](https://NoahMiller4.github.io/star_rating/) to start rating!
 
-accidentaly deleted readme may 17, just reuploaded.
+accidentaly deleted readme may 17, just reuploaded. main branch/star_rating is untouched
